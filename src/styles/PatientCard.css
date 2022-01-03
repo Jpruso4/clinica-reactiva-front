@@ -1,0 +1,30 @@
+.mainContainer {
+  padding: 15px;
+  display: grid;
+  grid-template-columns: 3fr 1fr;
+}
+
+.patientCard {
+  display: grid;
+  grid-template-columns: 0.4fr 1fr 1fr 1fr 1fr;
+  grid-column: 5px;
+  border-bottom: 1px solid #eee;
+  text-align: start;
+  background-color: white;
+}
+
+.row:hover {
+  background-color: #eee;
+  cursor: pointer;
+}
+
+.headerTitle {
+  font-weight: bold;
+}
+
+.detailsContainer {
+  height: 100vh;
+  border-left: 1px solid #eee;
+  text-align: start;
+  padding-left: 10px;
+}
