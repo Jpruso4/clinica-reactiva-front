@@ -2,7 +2,7 @@ export const getPatientDetail = (id) => {
   return (dispatch) => {
     window
       .fetch(
-        `https://citas-app-back.herokuapp.com/citasReactivas/${id}/byidPaciente`
+        `https://app-clinica-reactiva.herokuapp.com/citasReactivas/${id}/byidPaciente`
       )
       .then((response) => response.json())
       .then((data) => {

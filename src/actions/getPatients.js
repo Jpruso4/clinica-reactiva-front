@@ -1,7 +1,7 @@
 export const getPatients = () => {
   return (dispatch) => {
     window
-      .fetch("https://citas-app-back.herokuapp.com/citasReactivas")
+      .fetch("https://app-clinica-reactiva.herokuapp.com/citasReactivas")
       .then((response) => response.json())
       .then((data) => {
         dispatch(patientList(data));
